@@ -35,7 +35,7 @@ function parameters() {
   y_w = windowHeight - y1 - 40;
   x_w = y_w;
   this.logg = createElement("textarea");
-  this.logg.position(x1 + 20 + y_w, y1);
+  this.logg.position(x1 + 50 + y_w, y1);
   this.logg.size(500, windowHeight - y1 - 40);
   this.logg.style('font-size', '18px');
 }
